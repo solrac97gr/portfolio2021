@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Carlos Garcia | Developer",
+    siteUrl: "https://carlos.lat",
   },
   plugins: [
     {
