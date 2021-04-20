@@ -17,6 +17,7 @@ export const Nav = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: inherit;
   }
 `;
 export const NavItemContainer = styled.ul`
@@ -54,13 +55,22 @@ export const NavLogoLastName = styled.span`
   font-weight: 500;
   color: #95989f;
 `;
-export const NavLinks = styled.div``;
+export const NavLinks = styled.div`
+  display:flex;
+  justify-content:center;
+  align-items:center;
+`;
 export const NavSocialLink = styled.a`
   margin: 5px;
+  text-decoration: none;
+  color: inherit;
 `;
-export const NavContactLink = styled.a`
+export const NavContactLink = styled(Link)`
   border-radius: 50%;
-  border: 1px solid green;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
+  background-color:#3D3C42;
+  display:flex;
+  text-decoration: none;
+  color: inherit;
 `;

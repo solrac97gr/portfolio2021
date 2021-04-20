@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { FaTwitter, FaGithub } from "react-icons/fa";
-import { GoMail } from "react-icons/go";
+import { FaTwitter, FaGithub, FaWhatsapp } from "react-icons/fa";
 import {
   Nav,
   NavItemContainer,
@@ -16,7 +15,6 @@ import {
 export const Navbar = () => {
   useEffect(() => {
     const btnContainer = document.getElementById("menu");
-
     const btns = btnContainer.getElementsByTagName("a");
 
     for (var i = 0; i < btns.length; i++) {
@@ -48,14 +46,14 @@ export const Navbar = () => {
         </NavItem>
       </NavItemContainer>
       <NavLinks>
-        <NavSocialLink>
+        <NavSocialLink href="https://twitter.com/carlosgrowth" target="_blank">
           <FaTwitter /> Twitter
         </NavSocialLink>
-        <NavSocialLink>
+        <NavSocialLink href="https://github.com/solrac97gr" target="_blank">
           <FaGithub /> Github
         </NavSocialLink>
-        <NavContactLink>
-          <GoMail size={25} color={"green"} />
+        <NavContactLink href="https://api.whatsapp.com/send?phone=51939169253&text=Hola,%20me%20gustar%C3%ADa%20trabajar%20contigo" target="_blank">
+          <FaWhatsapp size={20} color={"green"} />
         </NavContactLink>
       </NavLinks>
     </Nav>
