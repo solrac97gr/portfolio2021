@@ -30,7 +30,7 @@ export const NavItemContainer = styled.ul`
   }
 `;
 export const NavItem = styled(Link)`
-  margin: 5px;
+  margin: 5px 20px;
   text-decoration: none;
   color: inherit;
   &.active {
@@ -42,6 +42,9 @@ export const NavItem = styled(Link)`
   }
   & span {
     color: #2d2e32;
+  }
+  @media ${device.mobileL} {
+    margin: 3px;
   }
 `;
 export const NavLogo = styled.div`
@@ -61,13 +64,13 @@ export const NavLinks = styled.div`
   align-items:center;
 `;
 export const NavSocialLink = styled.a`
-  margin: 5px;
+  margin: 5px 20px;
   text-decoration: none;
   color: inherit;
 `;
 export const NavContactLink = styled(Link)`
   border-radius: 50%;
-  margin: 5px;
+  margin:5px 20px;
   padding: 10px;
   background-color:#3D3C42;
   display:flex;
