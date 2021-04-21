@@ -66,7 +66,7 @@ export const NavLinks = styled.div`
 export const NavSocialLink = styled.a`
   margin: 5px 20px;
   text-decoration: none;
-  color: inherit;
+  color: #95989f;
 `;
 export const NavContactLink = styled(Link)`
   border-radius: 50%;

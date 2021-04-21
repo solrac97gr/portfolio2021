@@ -47,10 +47,10 @@ export const Navbar = () => {
       </NavItemContainer>
       <NavLinks>
         <NavSocialLink href="https://twitter.com/carlosgrowth" target="_blank">
-          <FaTwitter /> Twitter
+          <FaTwitter color={"white"}/> Twitter
         </NavSocialLink>
         <NavSocialLink href="https://github.com/solrac97gr" target="_blank">
-          <FaGithub /> Github
+          <FaGithub color={"white"}/> Github
         </NavSocialLink>
         <NavContactLink href="https://api.whatsapp.com/send?phone=51939169253&text=Hola,%20me%20gustar%C3%ADa%20trabajar%20contigo" target="_blank">
           <FaWhatsapp size={20} color={"green"} />
