@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Carlos Garcia | Developer",
+    description:
+      "Hola Mundo! Soy Carlos García un desarrollador apasionado por la data y por su trabajo, te veo en mi sitio web para que conozcas mas sobre mi, Entra ya!",
     siteUrl: "https://carlos.lat",
   },
   plugins: [
@@ -36,6 +38,15 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Fira Code\:300,400,500,600`
+        ],
+        display: 'swap'
+      }
     },
   ],
 };

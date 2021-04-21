@@ -1,7 +1,8 @@
 import * as React from "react";
+import { Default } from "../layout/Default";
 
 const IndexPage = () => {
-  return <main>Under construction</main>;
+  return <Default></Default>;
 };
 
 export default IndexPage;
