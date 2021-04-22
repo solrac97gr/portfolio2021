@@ -131,10 +131,11 @@ export const FirebaseContainer = styled.div`
   right: 1%;
   position: absolute;
   @media ${device.mobileL} {
-    height: 40px;
+    /* height: 40px;
     width: 40px;
     bottom: 60%;
-    right: 1%;
+    right: 1%; */
+    display:none
   }
 `;
 
@@ -152,10 +153,11 @@ export const ReactContainer = styled.div`
   right: 4%;
   position: absolute;
   @media ${device.mobileL} {
-    height: 70px;
+    /* height: 70px;
     width: 70px;
     bottom: 33%;
-    right: 5%;
+    right: 5%; */
+    display:none;
   }
 `;
 
@@ -173,9 +175,10 @@ export const NodeContainer = styled.div`
   right: 35%;
   position: absolute;
   @media ${device.mobileL} {
-    height: 50px;
+    /* height: 50px;
     width: 50px;
     bottom: 37%;
-    right: 70%;
+    right: 70%; */
+    display:none;
   }
 `;
