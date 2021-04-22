@@ -27,7 +27,7 @@ export const Navbar = () => {
   });
   return (
     <Nav id="navbar">
-      <NavLogo>
+      <NavLogo to="#">
         <NavLogoName>Carlos</NavLogoName>
         <NavLogoLastName>García</NavLogoLastName>
       </NavLogo>
