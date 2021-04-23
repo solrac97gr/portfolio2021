@@ -47,11 +47,13 @@ export const NavItem = styled(Link)`
     margin: 3px;
   }
 `;
-export const NavLogo = styled.div`
+export const NavLogo = styled(Link)`
   font-size: 21px;
+  text-decoration:none;
 `;
 export const NavLogoName = styled.span`
   font-weight: 600;
+  color:white;
 `;
 export const NavLogoLastName = styled.span`
   margin-left: 3px;
