@@ -10,7 +10,7 @@ import { projects } from "./data";
 
 export const WorkSection = () => {
   return (
-    <WorkSectionContainer>
+    <WorkSectionContainer id="works">
       <WorkSectionTitle>Latest Works</WorkSectionTitle>
       <WorkSectionSubTitle>
         Perfect Solutions for digital experience
