@@ -4,6 +4,7 @@ import { HeroSection } from "../sections/Hero";
 import { ServiceSection } from "../sections/Service";
 import { WorkSection } from "../sections/Work";
 import { TestimonialSection } from "../sections/Testimonial";
+import { ContactSection } from "../sections/Contact";
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,9 @@ const IndexPage = () => {
         <WorkSection />
         <TestimonialSection />
       </main>
+      <footer>
+        <ContactSection />
+      </footer>
     </Default>
   );
 };

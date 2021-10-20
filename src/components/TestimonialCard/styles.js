@@ -20,6 +20,7 @@ export const TestimonialCardContent = styled.div`
 
 export const TestimonialCardReview = styled.span`
   color: white;
+  font-size: 15px;
 `;
 export const TestimonialStarContainer = styled.div`
   display: flex;
